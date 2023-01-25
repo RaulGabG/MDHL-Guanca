@@ -1,0 +1,76 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 70px;
+    margin: 40px 0px -13px 0px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+}
+
+.headBackgr img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+nav {
+    display: inline;
+    margin: 90px 0px -30px 40px;
+    position: absolute;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    margin: 0px 5px;
+    padding: 0px 15px;
+}
+
+.home, .contact{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.about {
+    background-color: green;
+}
+
+.section {
+    border: 2px solid black;
+    text-align: center;
+}
+
+h2 {
+    margin: 5px 0px 0px;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.details {
+    margin: 20px 0px 0px 150px;
+}
+
+dt {
+    font-weight: bolder;
+    font-size: larger;
+    padding: 20px;
+}
