@@ -45,18 +45,20 @@ nav a {
     font-size: large;
 }
 
-button.desactive {
+.desactive {
     margin: 0px 5px;
-    padding: 1px 15px;
+    padding: 3px 15px;
     background-color: cornflowerblue;
     color: white;
+    border-radius: 5px;
 }
 
-button.active {
+.active {
     margin: 0px 5px;
-    padding: 1px 15px;
+    padding: 3px 15px;
     background-color: green;
     color: white;
+    border-radius: 5px;
 }
 
 .section {
