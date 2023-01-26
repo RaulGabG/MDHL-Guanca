@@ -57,7 +57,6 @@ h2 {
     margin: 0px;
     color: white;
     background-color: black;
-    padding: -5px 0px;
 }
 
 .logo {
@@ -91,7 +90,7 @@ dd {
 }
 
 .details h3 {
-    font-weight: 1900;
+    font-weight: bolder;
     font-size: larger;
 }
 
