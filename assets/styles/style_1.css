@@ -1,23 +1,22 @@
+/* Estilo de prueba */
+
 body {
     margin: 0 auto;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     max-width: 1200px;
     box-sizing: border-box;
     font-family: "Comic Neue";
 }
 
 h1 {
+    display: inline-block;
     font-weight: bolder;
     font-size: 66px;
     font-style: italic;
-    display: block;
-    z-index: 1;
 }
 
 header {
-    display: inline;
+    display: block;
     position: relative;
     top: -120px;
     width: 1200px;
@@ -103,3 +102,5 @@ address {
     margin: 20px;
     font-style: normal;
 }
+
+/* Estilo de prueba */
