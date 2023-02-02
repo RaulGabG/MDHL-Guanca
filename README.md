@@ -1,6 +1,6 @@
 # MDHL Proyect
 
-MDHL proyect it's a practice page from Mindhub's Front-End curse.
+MDHL proyect it's a practice page from MindHub's Front-End curse.
 
 ## Technologies
 

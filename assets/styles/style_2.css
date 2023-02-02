@@ -5,7 +5,7 @@ body {
     max-width: 1200px;
     box-sizing: border-box;
     font-family: "Comic Neue";
-    background-color: antiquewhite;
+    background-color: #fdfcdc;
 }
 
 h1 {
@@ -13,7 +13,17 @@ h1 {
     font-size: 66px;
     display: inline-block;
     font-style: italic;
-    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.logo {
+    display: inline;
+    position: relative;
+}
+
+.logo img{
+    width: 130px;
+    margin-bottom: -40px;
 }
 
 .flex-container {
@@ -21,8 +31,9 @@ h1 {
     flex-direction: row;
     justify-content: flex-end;
     height: 300px;
-    background-image: url(../img/design1_image2.jpg);
-    background-position-y: -140px;
+    background-image: url(../img/design1_image1.jpg);
+    background-size: cover;
+    background-position-y: -110px;
 }
 
 nav {
@@ -72,20 +83,10 @@ h2 {
     margin: 5px 0px 5px;
 }
 
-.logo {
-    display: inline-block;
-    position: absolute;
-}
-
-.logo img{
-    width: 130px;
-}
-
 .main-flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    margin-left: 200px;
 }
 
 .img-main {
@@ -99,6 +100,7 @@ h2 {
 .details {
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
 
 dt {
@@ -132,11 +134,13 @@ dd {
 }
 
 .rules-main {
-    font-size: x-large;
+    font-size: larger;
+    margin-top: 50px;
 }
 
 .title {
-    font-size: 36.5px;
+    font-size: 35px;
+    margin: 0px;
 }
 
 strong {
@@ -156,6 +160,7 @@ ul {
 }
 
 .game-header{
+    font-size: x-large;
     align-self: center;
 }
 
@@ -173,7 +178,7 @@ h3 {
 
 table {
     font-size: x-large;
-    margin-bottom: 70px;
+    margin: 0px auto 70px;
 }
 
 td {
@@ -181,13 +186,26 @@ td {
     padding: 10px 50px;
 }
 
-.game-inf p {
-    font-size: large;
-    font-weight: bold;
+.game-inf, .flex-rules {
+    display: flex;
+    flex-direction: column;
 }
 
-address#contact-info {
+.game-inf p {
+    font-size: large;
+}
+
+#contact-info {
+    width: 1000px;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+#email {
+    align-self: flex-end;
 }
 
 #contact-info a {
@@ -203,6 +221,7 @@ address {
 footer {
     display: inline;
     position: relative;
-    padding: 20px;
+    margin-top: 20px;
     text-align: center;
+    opacity: 0.6;
 }
