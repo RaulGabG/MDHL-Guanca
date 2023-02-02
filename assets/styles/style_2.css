@@ -97,6 +97,7 @@ h2 {
 
 .img-main img {
     width: 200px;
+    border-radius: 10px;
 }
 
 .details {
