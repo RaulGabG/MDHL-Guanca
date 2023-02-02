@@ -5,7 +5,7 @@ body {
     max-width: 1200px;
     box-sizing: border-box;
     font-family: "Comic Neue";
-    background-color: #fdfcdc;
+    background-color: #fffcf7;
 }
 
 h1 {
@@ -34,6 +34,7 @@ h1 {
     background-image: url(../img/design1_image1.jpg);
     background-size: cover;
     background-position-y: -110px;
+    border-radius: 10px;
 }
 
 nav {
@@ -73,6 +74,7 @@ nav a:hover {
 
 .section {
     border: 2px solid black;
+    border-radius: 10px;
     text-align: center;
     font-style: normal;
     margin-bottom: 50px;
