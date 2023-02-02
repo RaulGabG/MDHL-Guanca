@@ -211,6 +211,14 @@ td {
     align-self: flex-end;
 }
 
+#phone a:hover {
+    color: blue;
+}
+
+#email a:hover {
+    color: blue;
+}
+
 #contact-info a {
     text-decoration: none;
     color: #000;
