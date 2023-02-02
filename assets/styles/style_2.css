@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    padding: 0;
     min-height: 100vh;
     max-width: 1200px;
     box-sizing: border-box;
@@ -26,30 +27,37 @@ h1 {
 
 nav {
     margin-top: -19px;
+    display: flex;
+    align-items: flex-start;    
 }
 
 nav a {
-    color: white;
     font-weight: bold;
     text-decoration: none;
     font-size: large;
     box-shadow: 3px 3px #ADB4BD;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .desactive {
     margin: 0px 5px;
     padding: 3px 15px;
-    background-color: #0077B6;
+    background-color: black;
     color: white;
-    border: 1px solid black;
 }
 
 .active {
     margin: 0px 5px;
     padding: 3px 15px;
-    background-color: #55A630;
-    color: white;
-    border: 1px solid black;
+    background-color: #FFDD00;
+    color: black;
+}
+
+nav a:hover {
+    background-color: #FFDD00;
+    color: black;
+    transform: translate(0px, 5px);
 }
 
 .section {
@@ -57,6 +65,7 @@ nav a {
     text-align: center;
     font-style: normal;
     margin-bottom: 50px;
+    background-color: #FFDD00;
 }
 
 h2 {
@@ -64,15 +73,13 @@ h2 {
 }
 
 .logo {
-    display: block;
+    display: inline-block;
     position: absolute;
-    width: 10%;
 }
 
 .logo img{
     width: 130px;
 }
-
 
 .main-flex-container {
     display: flex;
@@ -80,7 +87,6 @@ h2 {
     align-items: flex-start;
     margin-left: 200px;
 }
-
 
 .img-main {
     display: flex;
@@ -114,6 +120,79 @@ dd {
 .details p {
     text-indent: 20px;
     margin-right: 160px;
+}
+
+.rules-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-grow: initial;
+    font-size: x-large;
+}
+
+.rules-main {
+    font-size: x-large;
+}
+
+.title {
+    font-size: 36.5px;
+}
+
+strong {
+    font-size: larger;
+}
+
+#regulations > li {
+    margin: 30px 0px;
+}
+
+#youngs li {
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style: circle;
+}
+
+.game-header{
+    align-self: center;
+}
+
+h3 {
+    font-style: italic;
+    margin-bottom: -5px;
+}
+#table-aclaration {
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+table {
+    font-size: x-large;
+    margin-bottom: 70px;
+}
+
+td {
+    font-weight: bold;
+    padding: 10px 50px;
+}
+
+.game-inf p {
+    font-size: large;
+    font-weight: bold;
+}
+
+address#contact-info {
+    margin: 0px;
+}
+
+#contact-info a {
+    text-decoration: none;
+    color: #000;
 }
 
 address {
