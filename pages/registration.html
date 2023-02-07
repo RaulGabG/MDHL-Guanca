@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../assets/styles/style_2.css" />
     <title>Registration</title>
   </head>
+
   <body>
     <div class="logo">
       <img
@@ -24,7 +25,9 @@
         title="MDHL"
       />
     </div>
+
     <h1>Mighty Ducks Hockey League</h1>
+
     <header class="flex-container">
       <nav>
         <a href="../index.html" class="desactive">Home</a>
@@ -35,13 +38,16 @@
         <a href="./pages/registration.html" class="active">Registration</a>
       </nav>
     </header>
+
     <main>
       <div class="section">
         <h2>Registration Form</h2>
       </div>
+
       <form action="../show_data.html" method="get" class="registr">
         <fieldset>
           <legend>Personal data</legend>
+
           <label for="name">Player’s First Name</label>
           <input type="text" name="name" id="name" placeholder="First Name" />
           <label for="last-name">Last Name</label>
@@ -52,8 +58,10 @@
             placeholder="Last Name"
           />
         </fieldset>
+
         <fieldset>
           <legend>Adress</legend>
+
           <label for="street-adreess">Street Adress</label>
           <input type="text" name="street-adreess" id="street-adreess" />
           <label for="city">City</label>
@@ -61,13 +69,17 @@
           <label for="zip-code">Zip Code</label>
           <input type="number" name="zip-code" id="zip-code" />
         </fieldset>
+
         <fieldset>
           <legend>Birth</legend>
+
           <label for="birth">Birth Date</label>
           <input type="date" name="birth" id="birth" />
         </fieldset>
+
         <fieldset>
           <legend>Gender</legend>
+
           <label>
             Female
             <input type="radio" name="gender" id="female" value="female" />
@@ -86,8 +98,10 @@
             />
           </label>
         </fieldset>
+
         <fieldset>
           <legend>Grade</legend>
+
           <label>
             <input
               type="radio"
@@ -118,9 +132,12 @@
             <sup>5th</sup>
           </label>
         </fieldset>
+
         <h4>Which elementary school do you live near?</h4>
+
         <fieldset>
           <legend>Closest School</legend>
+
           <label for="cl-school">School: </label>
           <select name="cl-school" id="cl-school">
             <option value="" selected disabled>--Select A School--</option>
@@ -132,10 +149,12 @@
             <option value="south-elementary">South Elementary</option>
           </select>
         </fieldset>
+
         <fieldset>
           <legend>
             What position(s) do you normally play? (check all that apply)
           </legend>
+
           <label>
             <input
               type="checkbox"
@@ -173,8 +192,10 @@
             Goalkeeper
           </label>
         </fieldset>
+
         <fieldset>
           <legend>Uniform Size</legend>
+
           <label>
             <input type="radio" name="unif-size" id="y-small" value="y-small" />
             Youth Small
@@ -209,8 +230,10 @@
             Extra-Large
           </label>
         </fieldset>
+
         <fieldset>
           <legend>Permission to Play</legend>
+          
           <p>
             I, the parent or guardian of the minor registrant, agree that the
             registrant and I will abide by all the rules of the Mighty Ducks
@@ -234,15 +257,18 @@
           <label for="form-date">Date</label>
           <input type="date" name="form-date" id="form-date" />
         </fieldset>
+
         <div class="form-buttons">
           <button type="submit">Submit!</button>
           <button type="reset">Reset</button>
         </div>
       </form>
     </main>
+
     <div class="button-up">
       <a href="#" class="desactive">&uArr;</a>
     </div>
+
     <footer>
       <address>
         @2023 Raúl Guanca. Contact
