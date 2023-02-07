@@ -72,6 +72,26 @@ nav a:hover {
     transform: translate(0px, 5px);
 }
 
+.button-up {
+    position: fixed;
+    bottom: 40px;
+    right: 70px;
+}
+
+.button-up a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: larger;
+    box-shadow: 3px 3px #ADB4BD;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.button-up a:hover {
+    background-color: #FFDD00;
+    color: black;
+}
+
 .section {
     border: 2px solid black;
     border-radius: 10px;
@@ -222,6 +242,61 @@ td {
 #contact-info a {
     text-decoration: none;
     color: #000;
+}
+
+.maps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+iframe {
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.school-map p {
+   text-align: center;
+   font-weight: bolder;
+   margin-bottom: -20px;
+}
+
+.school-map:hover {
+    transform: scale(140%);
+}
+
+.button-back {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    margin: 30px auto;
+}
+
+.form-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+button {
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 3px 3px #ADB4BD;
+    margin: 0px 5px;
+    padding: 3px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #FFDD00;
+    color: black;
+    transform: translate(0px, 5px);
 }
 
 address {
