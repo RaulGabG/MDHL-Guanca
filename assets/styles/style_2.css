@@ -274,6 +274,11 @@ iframe {
 
 fieldset {
     margin: 30px auto;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
 }
 
 .form-buttons {
@@ -297,6 +302,14 @@ button:hover {
     background-color: #FFDD00;
     color: black;
     transform: translate(0px, 5px);
+}
+
+::-webkit-input-placeholder {
+    font-family: "Comic Neue";;
+}
+
+select {
+    font-family: "Comic Neue";
 }
 
 address {
