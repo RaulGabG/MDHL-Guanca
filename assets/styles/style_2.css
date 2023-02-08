@@ -264,7 +264,7 @@ iframe {
 }
 
 .school-map:hover {
-    transform: scale(140%);
+    transform: scale(1.4, 1.4);
 }
 
 .button-back {
